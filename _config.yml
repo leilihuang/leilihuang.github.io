@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 雷立煌的博客
+title: 小雷的博客
 subtitle: 打怪升级
-description: 个人的前端进化之路
+description: react,webpack,gulp,angular,js相关的前端技术
 author: leilihuang
 language: zh-Hans
 timezone:
@@ -64,8 +64,11 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+#theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:leilihuang/leilihuang.github.io.git
+  branch: master
